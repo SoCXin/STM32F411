@@ -9,6 +9,8 @@
 
 兼容于STM32F2系列产品
 
+[![sites](SoC/STM32F4.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f4-series.html) 
+
 ###  [收录资源](https://github.com/sochub/STM32F4)  
 
 * [参考文档](docs/)
