@@ -1,27 +1,26 @@
 ﻿# [STM32F4](https://github.com/mcuyun/STM32F4) 
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
-#### qitas@qitas.cn
-#### 父级：[STM32](https://github.com/sochub/STM32)
-#### 归属：[Cortex-M4](https://github.com/sochub/CM4) 
+#### 厂商：[ST](https://github.com/sochub/ST) 
+#### 架构：[Cortex M4](https://github.com/sochub/CM4) 
 ## [描述](https://github.com/sochub/STM32F4/wiki) 
 
 以Cortex™-M4为内核的STM32F4系列高性能微控制器，其采用了90nm的NVM工艺和ART，F4系列可达到210DMIPS@168MHz，STM32F4系列微控制器集成了单周期DSP指令和FPU
 
-兼容于STM32F2系列产品
-
 [![sites](SoC/STM32F4.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f4-series.html) 
 
-###  [收录资源](https://github.com/sochub/STM32F4)  
 
-* [参考文档](docs/)
-* [参考工程](src/)
-* [官方驱动](libs/)
 
 ###  [收录产品](https://github.com/sochub/STM32F4)  
 
+* [STM32F401](https://github.com/sochub/STM32F401) 
+84 MHz 105 DMIPS 
 * [STM32F407](https://github.com/sochub/STM32F407) 
-* [STM32F429](https://github.com/sochub/STM32F429) 
+168 MHz 210 DMIPS 
+* [STM32F427](https://github.com/sochub/STM32F429) 
+180 MHz 1225 DMIPS 
+
+### [选型建议](https://github.com/sochub)
 
 
-###  [SoC资源平台](http://www.qitas.cn)   
+##  [SoC资源平台](http://www.qitas.cn)   
 
