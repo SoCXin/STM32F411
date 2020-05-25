@@ -1,26 +1,32 @@
-﻿# [STM32F4](https://github.com/mcuyun/STM32F4) 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-#### 厂商：[ST](https://github.com/sochub/ST) 
-#### 架构：[Cortex M4](https://github.com/sochub/CM4) 
-## [描述](https://github.com/sochub/STM32F4/wiki) 
+﻿# [STM32F411](https://github.com/SoCXin/STM32F411)
 
-以Cortex™-M4为内核的STM32F4系列高性能微控制器，其采用了90nm的NVM工艺和ART，F4系列可达到210DMIPS@168MHz，STM32F4系列微控制器集成了单周期DSP指令和FPU
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin) 
 
-[![sites](SoC/STM32F4.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f4-series.html) 
+#### [Vendor](https://github.com/SoCXin/Vendor)：[ST](https://github.com/SoCXin/ST)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M4](https://github.com/SoCXin/CM4) 
+#### [Level](https://github.com/SoCXin/Level)：100MHz /  105DMIPS
+
+## [STM32F411描述](https://github.com/SoCXin/STM32F411/wiki) 
+
+[STM32F411](https://github.com/SoCXin/STM32F411) 为高性能F4系列的入门产品，提供了动态功耗（运行模式）和处理性能之间的最佳平衡，即使在3 x 3 mm的小封装内也集成了大量的增值特性。
+
+STM32F411为新型的大量数据获取模式（BAM），为数据处理进行了功耗优化，将Dynamic Efficiency提升到了一个新的水平。 BAM通过通信外设交换大量数据，同时器件的其它部分（包括CPU）可处于省电模式。
+
+在100 MHz频率下，利用意法半导体的ART加速器，从Flash存储器执行时，STM32F411可实现FLASH零等待执行并达到125 DMIPS/339 CoreMark的性能。 DSP指令和浮点运算单元扩大了产品的应用范围。
+
+该系列产品采用意法半导体90 nm工艺和ART加速器，具有动态功耗调整功能，能够在运行模式和从Flash存储器执行时实现低至100 µA/MHz的电流消耗。 停机模式下，功耗低至10 µA。
+
+[![sites](docs/STM32F411.png)](https://my.st.com/content/my_st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series/stm32f411.html#overview) 
+
+### [收录资源](https://github.com/SoCXin/STM32F411)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[STM32F411](https://github.com/SoCXin/STM32F411)是F4系列的入门级产品，主频和配置高于[STM32F401](https://github.com/SoCXin/STM32F401)，相对[STM32F410](https://github.com/SoCXin/STM32F410)缺少DAC和TRNG，多USB.
 
 
-
-###  [收录产品](https://github.com/sochub/STM32F4)  
-
-* [STM32F401](https://github.com/sochub/STM32F401) 
-84 MHz 105 DMIPS 
-* [STM32F407](https://github.com/sochub/STM32F407) 
-168 MHz 210 DMIPS 
-* [STM32F427](https://github.com/sochub/STM32F429) 
-180 MHz 1225 DMIPS 
-
-### [选型建议](https://github.com/sochub)
-
-
-##  [SoC资源平台](http://www.qitas.cn)   
+###  [SoC芯平台](http://www.SoC.Xin) 
 
