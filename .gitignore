@@ -29,6 +29,8 @@ README*
 *.map
 *.hex
 *.bin
+*.chm
+*.rtf
 *bak
 # *.txt
 *.lst
