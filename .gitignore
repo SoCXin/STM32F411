@@ -43,6 +43,7 @@ README*
 *.xml
 *.pdf
 *.xlsx
+*.html
 *.zip
 *.xcf
 *.png
@@ -53,8 +54,8 @@ README*
 *cm23*
 *cm33*
 *cm7*
-*cm4*
-# *cm3*
+# *cm4*
+*cm3*
 *cm1*
 *cm0*
 *.uvgu*
@@ -72,9 +73,9 @@ docs
 *32g*
 *32h*
 *32f7*
-*32f4*
+# *32f4*
 *32f3*
-# *32f2*
+*32f2*
 *32f1*
 *32f0*
 *32l*
