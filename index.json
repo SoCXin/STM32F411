@@ -1,0 +1,32 @@
+{
+    "type":"MCU",
+    "name":"STM32F411",
+    "title": "ST STM32F411 MCU",
+    "description":"ST Cortex-M4 MCU",
+    "Core": {
+        "num": 1,
+        "type":"Cortex-M4",
+        "Freq":100,
+        "DMIPS": 125,
+        "CoreMark": 339
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/STM32F411-value-line.htm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/STM32F411.git"
+    },
+    "version":"1.0.0",
+    "series":["STM32F411","STM32F215"],
+    "package":["LQFP176","LQFP144","LQFP100","LQFP64","LQFP176","WLCSP66","UFBGA176"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
