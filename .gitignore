@@ -69,6 +69,12 @@ doc
 tests
 docs
 # mk
+*.d
+*.o
+*.htm
+*.lnp
+*.axf
+*.dbg*
 *.md
 *.so
 *.dcm
