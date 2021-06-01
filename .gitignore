@@ -30,7 +30,7 @@ README*
 *.hex
 *.bin
 *bak
-*.txt
+# *.txt
 *.lst
 *.sct
 *.elf
@@ -42,14 +42,14 @@ README*
 *.csv
 *.xml
 *.pdf
-*.xlsx
-*.html
 *.zip
 *.xcf
 *.png
 *.jpg
 *.rst
 *.srec
+*.xlsx
+*.html
 *_sc*
 *cm23*
 *cm33*
