@@ -10,16 +10,14 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 # The MCU architecture specs
 set(arch_flags
-    -mcpu=cortex-m4
+    -march=cortex-m4
     -mfpu=fpv4-sp-d16
     -mfloat-abi=hard
     -mthumb
-    -mabi=aapcs
 )
 
 # Compiler and Linker options
 set(common_flags
-    $<$<C_COMPILER_ID:GNU>:--specs=nosys.specs>
     $<$<C_COMPILER_ID:GNU>:--specs=nano.specs>
 )
 
